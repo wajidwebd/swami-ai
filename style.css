@@ -112,6 +112,7 @@ body {
 .prompt-container {
   position: fixed;
   bottom: 0;
+  left: 0;
   width: 100%;
   background: var(--bg-color);
   border-top: 1px solid #334155;
