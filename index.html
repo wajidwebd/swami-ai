@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Swami AI: Divine Wisdom Guided by SVB’s Spirit</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+   <header class="app-header">
+            <h1 class="heading">Welcome to Swami AI,</h1>
+            <h2 class="sub-heading">How can I help you?</h2>
+   </header>
+  <div class="container">
+    <div class="chats-container" id="chat-box"></div>
+
+    <div class="prompt-container">
+      <div class="prompt-wrapper">
+        <form class="prompt-form">
+          <div class="file-upload-wrapper" id="file-upload-wrapper">
+            <img src="" alt="Preview" id="file-preview" />
+            <input type="file" id="file-input" accept="image/*,.pdf,.txt,.csv" />
+            <span class="material-symbols-outlined" id="add-file-btn">attach_file</span>
+            <span class="material-symbols-outlined" id="cancel-file-btn" style="display:none">close</span>
+          </div>
+          <input type="text" class="prompt-input" placeholder="Type your message..." />
+          <div class="prompt-actions">
+            <button type="button" id="stop-response-btn">
+              <span class="material-symbols-outlined">stop_circle</span>
+            </button>
+            <button type="submit" id="send-prompt-btn">
+              <span class="material-symbols-outlined">arrow_upward</span>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
