@@ -122,4 +122,5 @@
     document.getElementById("stop-response-btn").onclick = () => {
       controller?.abort();
       clearInterval(typingInterval);
+
     };
