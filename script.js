@@ -8,7 +8,7 @@
     const fileUploadWrapper = document.getElementById("file-upload-wrapper");
 
   const API_KEY = 'AIzaSyC51SeqblsFjgDlur7zrPYM2cQ_uQmnhPk';
-  const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${API_KEY}`;
+  const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${API_KEY}`;
 
     let chatHistory = [];
     let userFile = null;
@@ -124,6 +124,7 @@
       clearInterval(typingInterval);
 
     };
+
 
 
 
